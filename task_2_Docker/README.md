@@ -16,8 +16,4 @@ docker compose up -d --build
 
 ## Подключение
 
-- Host: `localhost`
-- Port: `5433`
-- Database: `my_db_zhilenkov`
-- User: `zhilenkov`
-- Password: из `.env`
+Для подключения к PostgreSQL используйте значения из файла `.env`.
