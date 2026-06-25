@@ -1,2 +1,2 @@
 FROM apache/airflow:2.10.4
-RUN pip install psycopg2-binary python-dotenv
+RUN pip install psycopg2-binary python-dotenv pandas faker matplotlib
